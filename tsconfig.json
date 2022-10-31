@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./cypress",
+    "paths": {
+      "@fixtures/*": ["fixtures/*"],
+      "@commons/*": ["support/commons/*"],
+      "@commands/*": ["support/commands/*"],
+      "@OndeAceita/*": ["integration/OndeAceita/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
